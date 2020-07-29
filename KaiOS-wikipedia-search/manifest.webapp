@@ -1,0 +1,50 @@
+{
+	"version": "1.0.0",
+	"name": "Wikipedia",
+	"description": "Wikipedia search app",
+	"launch_path": "/index.html",
+	"type": "certified",
+
+
+	"icons": {
+		"56": "/icons/icon-56-56.png",
+		"112": "/icons/icon-112-112.png"
+	},
+	
+	"developer": 
+	{
+		"name": "Pravash Jha",
+		"url": "https://github.com/pravash21"
+	},
+
+	"messages": [
+	{ "alarm": "/index.html" }
+	],
+
+
+	"permissions": 
+	{
+
+		"desktop-notification":{},
+
+
+		"geolocation": {
+		"description": "Required to show user's location"
+		},
+
+
+		"spatialnavigation-app-manage": {
+		"navigator.spatialNavigationEnabled": false
+		},
+
+		"systemXHR": {
+		"description": "Required to load remote content"
+		}
+
+
+ 
+	}
+
+
+ 
+}

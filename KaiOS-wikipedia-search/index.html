@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Translator</title>
+	<meta http-equiv="Content-Security-Policy" content="default-src https://en.wikipedia.org/* 'self'">
+
+
+
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<link rel="stylesheet" href="assets/css/main.css"/>
+	<link rel="stylesheet" href="assets/css/grid.css"/>
+
+
+
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="toast" class="width-100">
+		</div>
+
+		<div id="finder" class="flex width-100">
+			<div>With which language do you want to search ?</div>
+			<ul id="item-list">
+			</ul>
+			<form>
+				<input required type="text"  placeholder="" id="language-list">
+			</form>
+			<div id="bottom-bar" class="flex justify-content-center width-100">
+				<div class="text-center">The encyclopedic content on this app is derived from Wikipedia</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<div id="main" class="width-100">
+			<form class="flex justify-content-center" id="search-form">
+				<input required type="search"  placeholder="search" id="search">
+			</form>
+			<div id="result">
+			</div>
+			<div id="article-page">
+			</div>
+
+			<div id="bottom-bar" class="flex justify-content-spacebetween">
+				<div id="button-left">&#128270;</div>
+				<div id="button-right"></div>
+			</div>
+		</div>
+
+			
+		
+
+
+
+
+	</div>
+
+</body>
+</html>
+
+	<script defer src="assets/js/jQuery-3.1.0.js"></script>
+	<script defer src="assets/js/moments.min.js"></script>
+	<script defer src="assets/js/applait.finder.min.js"></script>
+	<script defer src="assets/js/wikipedia_languages.js"></script>
+	<script defer src="assets/js/script.js"></script>
+	<script defer src="assets/js/jquery.autocomplete.min.js"></script>
+
